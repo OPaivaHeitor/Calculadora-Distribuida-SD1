@@ -1,6 +1,7 @@
 import socket
 
 # Função para se conectar ao servidor e realizar operações
+# oi
 
 
 def perform_operation():
