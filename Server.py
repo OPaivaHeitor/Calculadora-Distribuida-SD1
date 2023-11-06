@@ -68,6 +68,8 @@ while True:
         result = "Operação inválida"
 
     # Enviar o resultado de volta ao cliente
+    if(result):
+        print("Resultado: ", result)
     client_socket.send(str(result).encode('utf-8'))
     client_socket.close()
 

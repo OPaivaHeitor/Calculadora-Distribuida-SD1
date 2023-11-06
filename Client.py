@@ -28,7 +28,7 @@ def perform_operation():
 
 
 # Configuração do cliente
-SERVER_HOST = '127.0.0.1'
+SERVER_HOST = '54.172.57.13'
 SERVER_PORT = 15000
 
 while True:
